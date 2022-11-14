@@ -1,0 +1,118 @@
+body {
+	background-color: white;
+	color: black;
+	font-size: 13px;
+	font-family: 'Noto Sans Mono', monospace;
+}
+
+p {
+	font-weight: bold;
+	font-family: 'Noto Sans Mono', monospace;
+}
+
+#logo {
+	border-radius:50% ;
+	width: 100px;
+	border: 10px strong blue ;
+}
+.btn-blue {
+	background-color: #0D11E7;
+	color: white;
+	padding: 17px 22px;
+	border-radius: 5px;
+}
+h1 {
+	
+	color: #0D11E7;
+	font-weight: 800;
+	font-weight: bold;
+	letter-spacing: 8px;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #0D11E7;
+	font-weight: 800; 
+	font-weight: bold;
+	letter-spacing: 8px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	background-color: #0D11E7;
+	color: white;
+	padding: 11px 20px;
+	border-radius: 5px;
+	margin: 20px Opx;
+}
+
+
+a:hover {
+	color : #DE172E
+
+}
+
+/*Custom design with class */
+.container {
+	width: 700px;
+	margin: 60px auto;
+	text-align: center;
+
+}
+@media ( max-width: 760px) {
+	.container {
+		width: 600px;
+
+
+	}
+	
+
+} 
+@media ( max-width: 500px) {
+	.container {
+		width: 400px;
+
+
+	}
+	
+
+} 
+
+.card-white {
+	background-color: #F9F6F0;
+	padding: 100px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px 0px;
+}
+
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 22px;
+}
+
+.list-inline i:hover {
+	font-size: 20px;
+	color: #DE172E;
+}
+
+/* Design adjustements with id */
+#introduction p {
+	margin: 80px;
+}
+
